@@ -104,4 +104,9 @@ libyuv_unittest
 libyuv_arm.lib
 source/*.o
 
-
+# Buck
+/buck-out/
+/.buckd/
+/buckaroo/
+.buckconfig.local
+BUCKAROO_DEPS

@@ -1,0 +1,6 @@
+{
+  "name": "libyuv",
+  "dependencies": {
+    "gflags": "2.2.0"
+  }
+}

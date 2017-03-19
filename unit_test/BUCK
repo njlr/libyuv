@@ -1,0 +1,14 @@
+cxx_test(
+  name = 'unit_test',
+  header_namespace = '',
+  headers = [
+    'unit_test.h',
+  ],
+  srcs = [
+    'unit_test.cc',
+  ],
+  deps = [
+    '//:libyuv',
+    'gflags//:gflags',
+  ],
+)
